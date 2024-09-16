@@ -1,0 +1,15 @@
+// CSS/_footer.scss
+
+footer {
+    background-color: #0e1114;
+    padding: 20px 0; // Añadido padding para un mejor espaciado
+  
+    p {
+      margin-bottom: 10px; // Separar el texto del footer de los íconos
+    }
+  
+    .social-icons img {
+      margin-right: 15px;
+    }
+  }
+  

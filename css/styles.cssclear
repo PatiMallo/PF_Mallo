@@ -1,0 +1,129 @@
+@charset "UTF-8";
+header .navbar {
+  background-color: #3498db;
+  margin-bottom: 45px;
+}
+header .navbar .navbar-brand {
+  color: rgb(0, 0, 15);
+}
+header .navbar .btn-primary {
+  background-color: #217dbb;
+  border-color: #217dbb;
+}
+header .navbar .btn-primary:hover {
+  background-color: #4aa3df;
+  border-color: #4aa3df;
+}
+
+footer {
+  background-color: #0e1114;
+  padding: 20px 0;
+}
+footer p {
+  margin-bottom: 10px;
+}
+footer .social-icons img {
+  margin-right: 15px;
+}
+
+/* Botón con sombra personalizado */
+.btn-shadow {
+  box-shadow: 0 4px 6px rgba(97, 97, 97, 0.1);
+}
+.btn-shadow:hover, .btn-shadow:focus {
+  box-shadow: 0 6px 8px rgba(94, 93, 93, 0.15);
+}
+
+/* Estilos para los botones de los sidebars */
+.sidebar-buttons .btn {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
+/* Botones adicionales (reutilizando variables) */
+.btn-primary {
+  background-color: #217dbb;
+  border-color: #217dbb;
+}
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #4aa3df;
+  border-color: #4aa3df;
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.error-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.error-container .error-code {
+  font-size: 10rem;
+  font-weight: bold;
+  color: #3498db;
+}
+.error-container .error-message {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.error-container .btn-home {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Arial, sans-serif";
+  color: #070707;
+}
+
+.main-content {
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #4b4a4a;
+  background-size: cover;
+  background-position: center;
+}
+
+.new-image {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.btn-container {
+  padding: 15px;
+  border: 2px solid #d5d7d8;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.cssclear.map */

@@ -1,0 +1,341 @@
+@charset "UTF-8";
+header .navbar {
+  background-color: #3498db;
+  margin-bottom: 45px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+header .navbar .navbar-brand {
+  color: rgb(0, 0, 15);
+}
+header .navbar .btn-primary {
+  background-color: #217dbb;
+  border-color: #217dbb;
+}
+header .navbar .btn-primary:hover {
+  background-color: #4aa3df;
+  border-color: #4aa3df;
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.custom-select {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  appearance: none;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4IDQiIHdpZHRoPSI4IiBoZWlnaHQ9IjQiPjxwb2x5Z29uIHBvaW50cz0iMCAwIDggMCA0IDQiIHN0eWxlPSJmaWxsOiM3Nzc7Ii8+PC9zdmc+");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+  cursor: pointer;
+}
+
+.custom-select:hover, .custom-select:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+footer {
+  background-color: #0e1114;
+  padding: 20px 0;
+}
+footer p {
+  margin-bottom: 10px;
+}
+footer .social-icons img {
+  margin-right: 15px;
+}
+
+.login-container {
+  flex: 1;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.login-container h5 {
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.login-container form {
+  margin-top: 40px;
+}
+
+.login-container button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.carousel-container {
+  flex: 12;
+  position: relative;
+}
+
+.carousel-inner img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .carousel-container {
+    width: 100%;
+  }
+  .login-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+/* Botón con sombra personalizado */
+.btn-shadow {
+  box-shadow: 0 4px 6px rgba(97, 97, 97, 0.1);
+}
+.btn-shadow:hover, .btn-shadow:focus {
+  box-shadow: 0 6px 8px rgba(94, 93, 93, 0.15);
+}
+
+/* Estilos para los botones de los sidebars */
+.sidebar-buttons .btn {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
+/* Botones adicionales (reutilizando variables) */
+.btn-primary {
+  background-color: #217dbb;
+  border-color: #217dbb;
+}
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #4aa3df;
+  border-color: #4aa3df;
+}
+
+#map {
+  height: 10px;
+  width: 10;
+}
+
+.container-map {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.map-container {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.search-container {
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .container-map {
+    flex-direction: column;
+  }
+  .map-container, .search-container {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+.error-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.error-container .error-code {
+  font-size: 10rem;
+  font-weight: bold;
+  color: #3498db;
+}
+.error-container .error-message {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.error-container .btn-home {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.divider-vertical {
+  border-left: 2px solid #ccc; /* Línea divisoria */
+  height: 100%; /* Se ajusta automáticamente a la altura del contenido */
+  position: relative; /* Posición absoluta */
+  left: 50%; /* Centra el divisor en la columna */
+  top: 0;
+}
+
+/* Ocultar el divisor en pantallas pequeñas */
+@media (max-width: 768px) {
+  .divider-vertical {
+    display: none;
+  }
+}
+.about-container {
+  display: flex;
+  align-items: flex-start; /* Alinea la parte superior del texto con la imagen */
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.about-text {
+  flex: 1;
+  margin-right: 20px;
+  margin-top: 10px; /* Elevar el texto hacia arriba */
+}
+
+.about-image {
+  flex: 1;
+  text-align: right;
+}
+
+.about-image img {
+  max-width: 85%;
+  height: 5%;
+  border-radius: 10px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+  .about-text {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .about-image {
+    text-align: center;
+  }
+}
+/* Estilos para los contenedores con sombra */
+.custom-container {
+  position: relative; /* Necesario para posicionar el logo de WhatsApp */
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el logo de WhatsApp */
+.whatsapp-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+body {
+  font-family: "Arial, sans-serif";
+  color: #070707;
+}
+
+.main-content {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-position: center;
+}
+
+.new-image {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.btn-container {
+  padding: 15px;
+  border: 2px solid #d5d7d8;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.custom-container {
+  position: relative; /* Necesario para posicionar el logo de WhatsApp */
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el logo de WhatsApp */
+.whatsapp-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=styles.css.map */

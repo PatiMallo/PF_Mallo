@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Locales - Sanatorio Pyxis</title>
+  
+  <!-- Incluir Bootstrap CSS desde CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../images/logo.png" alt="logo" width="60" height="60">
+        Sanatorio Pyxis
+      </a>
+      <div class="ms-auto"></div>
+      <a href="/pages/ingreso_socio.html" class="btn btn-primary btn-shadow me-3" aria-label="Ingreso Socio">Ingreso Socio</a>
+    </nav>
+  </header>
+
+  <!-- Contenedor principal -->
+  <div class="container mt-4">
+    
+    <!-- Título principal -->
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1>Agenda de Consultas</h1>
+        <p class="lead">Seleccione la especialidad, local y horario para agendar su cita.</p>
+      </div>
+    </div>
+    
+    <!-- Formulario de agenda -->
+    <div class="row mt-4">
+      
+      <!-- Primera columna: Especialidades con select -->
+      <div class="col-md-3">
+        <div class="mb-3">
+          <label for="combobox1" class="form-label">Especialidades</label>
+          <select class="form-select custom-select" id="combobox1">
+            <option selected>Seleccionar Especialidad</option>
+            <option value="Acupuntura">Acupuntura</option>
+            <option value="Alergistas">Alergistas</option>
+            <option value="Cardiología">Cardiología</option>
+            <option value="Cirugía">Cirugía</option>
+            <option value="Cuidados Paliativos">Cuidados Paliativos</option>
+            <option value="Dermatología">Dermatología</option>
+            <option value="Endocrinología">Endocrinología</option>
+          </select>
+        </div>
+      </div>
+      
+      <!-- Segunda columna: Locales con select -->
+      <div class="col-md-3">
+        <div class="mb-3">
+          <label for="combobox2" class="form-label">Locales</label>
+          <select class="form-select custom-select" id="combobox2">
+            <option selected>Seleccionar Local</option>
+            <option value="Bulevard Artigas">Bulevard Artigas</option>
+            <option value="La Teja">La Teja</option>
+            <option value="Sur y Palermo">Sur y Palermo</option>
+            <option value="Solimar">Solimar</option>
+            <option value="Lagomar">Lagomar</option>
+          </select>
+        </div>
+      </div>
+      
+      <!-- Tercera columna: Horarios con select -->
+      <div class="col-md-3">
+        <div class="mb-3">
+          <label for="combobox3" class="form-label">Horarios</label>
+          <select class="form-select custom-select" id="combobox3">
+            <option selected>Seleccionar Horario</option>
+            <option value="8:00 AM - 12:00 PM">8:00 AM - 12:00 PM</option>
+            <option value="12:00 PM - 16:00 PM">12:00 PM - 16:00 PM</option>
+            <option value="16:00 PM - 20:00 PM">16:00 PM - 20:00 PM</option>
+          </select>
+        </div>
+      </div>
+      
+      <!-- Cuarta columna: Botón de Agendar -->
+      <div class="col-md-3 d-flex align-items-end">
+        <button type="button" class="btn btn-primary me-3">Agendar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center text-lg-start mt-4">
+    <div class="container p-4">
+      <div class="row">
+        <!-- Texto del pie de página -->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <p>&copy; 2024 Todos los derechos reservados</p>
+        </div>
+
+        <!-- Íconos de redes sociales alineados a la derecha -->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-lg-end social-icons">
+          <a href="https://wa.me/123456789" aria-label="WhatsApp" title="WhatsApp">
+            <img src="../images/whatsapp.png" alt="WhatsApp" width="30">
+          </a>
+          <a href="https://twitter.com" aria-label="Twitter" title="Twitter">
+            <img src="../images/twitter.png" alt="Twitter" width="30">
+          </a>
+          <a href="https://instagram.com" aria-label="Instagram" title="Instagram">
+            <img src="../images/instagram.png" alt="Instagram" width="30">
+          </a>
+          <a href="tel:+59825444554" aria-label="Llamar" title="Llamar">
+            <img src="../images/call.png" alt="Llamar" width="30">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- Incluir solo el script de Bootstrap desde CDN (sin jQuery ni Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

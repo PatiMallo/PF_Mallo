@@ -1,0 +1,40 @@
+// _forms.scss
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.divider-vertical {
+  border-left: 2px solid #ccc; /* Línea divisoria */
+  height: 100%; /* Se ajusta automáticamente a la altura del contenido */
+  position: relative; /* Posición absoluta */
+  left: 50%; /* Centra el divisor en la columna */
+  top: 0;
+}
+
+/* Ocultar el divisor en pantallas pequeñas */
+@media (max-width: 768px) {
+  .divider-vertical {
+    display: none;
+  }
+}

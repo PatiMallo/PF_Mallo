@@ -1,0 +1,57 @@
+// Importar variables y componentes
+@import '../scss/estructura/variables';
+@import '../scss/estructura/header';
+@import '../scss/estructura/dropdown';
+@import '../scss/estructura/footer';
+@import '../scss/estructura/login';
+@import '../scss/estructura/carrusel';
+@import '../scss/estructura/buttons';
+@import '../scss/estructura/map';
+@import '../scss/pages/error';
+@import '../scss/pages/forms';
+@import '../scss/pages/institucional';
+@import '../scss/pages/funciones_esp';
+
+// Estilos globales
+body {
+  font-family: $font-family-base;
+  color: #070707;
+}
+
+.main-content {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-position: center;
+}
+
+.new-image {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.btn-container {
+  padding: 15px;
+  border: 2px solid #d5d7d8;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+.custom-container {
+  position: relative; /* Necesario para posicionar el logo de WhatsApp */
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el logo de WhatsApp */
+.whatsapp-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+}

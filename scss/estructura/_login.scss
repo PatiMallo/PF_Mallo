@@ -1,0 +1,26 @@
+.login-container {
+  flex: 1;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  border-radius: 5px;
+  position:relative;
+}
+
+.login-container h5 {
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.login-container form {
+  margin-top: 40px;
+}
+
+.login-container button {
+  width: 100%;
+  margin-top: 20px;
+}

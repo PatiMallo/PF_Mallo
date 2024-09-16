@@ -1,0 +1,40 @@
+// Estilos para la sección institucional
+.about-container {
+  display: flex;
+  align-items: flex-start; /* Alinea la parte superior del texto con la imagen */
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.about-text {
+  flex: 1;
+  margin-right: 20px;
+  margin-top: 10px; /* Elevar el texto hacia arriba */
+}
+
+.about-image {
+  flex: 1;
+  text-align: right;
+}
+
+.about-image img {
+  max-width: 85%;
+  height: 5%;
+  border-radius: 10px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-text {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .about-image {
+    text-align: center;
+  }
+}

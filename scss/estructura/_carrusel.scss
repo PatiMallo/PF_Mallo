@@ -1,0 +1,23 @@
+.carousel-container {
+    flex: 12;
+    position: relative;
+  }
+  
+  .carousel-inner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .carousel-container {
+      width: 100%;
+    }
+  
+    .login-container {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  

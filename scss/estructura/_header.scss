@@ -1,0 +1,23 @@
+// CSS/_header.scss
+
+header {
+    .navbar {
+      background-color: $primary-color;
+      margin-bottom: 45px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); 
+      .navbar-brand {
+        color: rgb(0, 0, 15);
+      }
+      
+      .btn-primary {
+        background-color: $primary-color-dark;
+        border-color: $primary-color-dark;
+  
+        &:hover {
+          background-color: $primary-color-light;
+          border-color: $primary-color-light;
+        }
+      }
+    }
+  }
+  
