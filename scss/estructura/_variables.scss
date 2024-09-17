@@ -1,4 +1,4 @@
-// Colores
+
 $primary-color: #3498db;
 $primary-color-dark: darken($primary-color, 10%);
 $primary-color-light: lighten($primary-color, 5%);
@@ -10,7 +10,7 @@ $breakpoint-sm: 576px;
 $shadow-color: rgba(97, 97, 97, 0.1);
 $shadow-color-hover: rgba(94, 93, 93, 0.15);
 
-// Mixin para sombras
+
 @mixin shadow($color, $hover-color) {
   box-shadow: 0 4px 6px $color;
 
