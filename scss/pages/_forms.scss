@@ -1,4 +1,3 @@
-// _forms.scss
 
 .form-container {
   background-color: white;
@@ -25,14 +24,13 @@ h2 {
 }
 
 .divider-vertical {
-  border-left: 2px solid #ccc; /* Línea divisoria */
-  height: 100%; /* Se ajusta automáticamente a la altura del contenido */
-  position: relative; /* Posición absoluta */
-  left: 50%; /* Centra el divisor en la columna */
+  border-left: 2px solid #ccc; 
+  height: 100%; 
+  position: relative; 
+  left: 50%; 
   top: 0;
 }
 
-/* Ocultar el divisor en pantallas pequeñas */
 @media (max-width: 768px) {
   .divider-vertical {
     display: none;
