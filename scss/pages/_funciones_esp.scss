@@ -1,6 +1,6 @@
-/* Estilos para los contenedores con sombra */
+
 .custom-container {
-    position: relative; /* Necesario para posicionar el logo de WhatsApp */
+    position: relative; 
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -8,7 +8,6 @@
     margin-bottom: 20px;
   }
   
-  /* Estilo para el logo de WhatsApp */
   .whatsapp-logo {
     position: absolute;
     top: 10px;
