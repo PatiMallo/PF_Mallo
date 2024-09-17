@@ -220,10 +220,10 @@ h2 {
 }
 
 .divider-vertical {
-  border-left: 2px solid #ccc; /* Línea divisoria */
-  height: 100%; /* Se ajusta automáticamente a la altura del contenido */
-  position: relative; /* Posición absoluta */
-  left: 50%; /* Centra el divisor en la columna */
+  border-left: 2px solid #ccc; 
+  height: 100%; 
+  position: relative; /
+  left: 50%; 
   top: 0;
 }
 
@@ -234,7 +234,7 @@ h2 {
 }
 .about-container {
   display: flex;
-  align-items: flex-start; /* Alinea la parte superior del texto con la imagen */
+  align-items: flex-start; 
   justify-content: space-between;
   margin-top: 20px;
 }
@@ -269,7 +269,7 @@ h2 {
   }
 }
 .custom-container {
-  position: relative; /* Necesario para posicionar el logo de WhatsApp */
+  position: relative; /
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -312,7 +312,7 @@ body {
 }
 
 .custom-container {
-  position: relative; /* Necesario para posicionar el logo de WhatsApp */
+  position: relative; 
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -328,4 +328,3 @@ body {
   height: 30px;
 }
 
-/*# sourceMappingURL=styles.css.map */
