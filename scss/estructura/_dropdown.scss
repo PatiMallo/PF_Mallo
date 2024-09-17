@@ -1,4 +1,4 @@
-// Estilos para el contenedor de formularios
+
 .form-container {
     background-color: white;
     padding: 20px;
@@ -8,14 +8,13 @@
     max-width: 800px;
   }
   
-  // Estilo para el título
+ 
   h2 {
     text-align: center;
     margin-bottom: 30px;
   }
   
-  // Estilo personalizado para el botón de enviar
-  .submit-btn {
+    .submit-btn {
     width: 100%;
     padding: 10px;
     background-color: $primary-color;
@@ -25,14 +24,13 @@
     font-size: 18px;
   }
   
-  // Estilos personalizados para los select
-  .custom-select {
+   .custom-select {
     font-size: 16px;
     padding: 10px;
     border-radius: 5px;
     background-color: #f8f9fa;
     border: 1px solid #ced4da;
-    appearance: none; // Oculta las flechas nativas del select
+    appearance: none; 
     background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4IDQiIHdpZHRoPSI4IiBoZWlnaHQ9IjQiPjxwb2x5Z29uIHBvaW50cz0iMCAwIDggMCA0IDQiIHN0eWxlPSJmaWxsOiM3Nzc7Ii8+PC9zdmc+'); // Flecha personalizada
     background-repeat: no-repeat;
     background-position: right 10px center;
@@ -40,7 +38,6 @@
     cursor: pointer;
   }
   
-  // Estilo para hover y focus en el select
   .custom-select:hover, .custom-select:focus {
     border-color: $primary-color;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
