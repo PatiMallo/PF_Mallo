@@ -108,7 +108,6 @@ footer .social-icons img {
   border-radius: 10px;
 }
 
-/* Responsividad */
 @media (max-width: 768px) {
   .carousel-container {
     width: 100%;
@@ -118,7 +117,6 @@ footer .social-icons img {
     margin-top: 20px;
   }
 }
-/* Botón con sombra personalizado */
 .btn-shadow {
   box-shadow: 0 4px 6px rgba(97, 97, 97, 0.1);
 }
@@ -126,7 +124,6 @@ footer .social-icons img {
   box-shadow: 0 6px 8px rgba(94, 93, 93, 0.15);
 }
 
-/* Estilos para los botones de los sidebars */
 .sidebar-buttons .btn {
   display: block;
   margin-top: 20px;
@@ -134,7 +131,6 @@ footer .social-icons img {
   padding: 10px 20px;
 }
 
-/* Botones adicionales (reutilizando variables) */
 .btn-primary {
   background-color: #217dbb;
   border-color: #217dbb;
@@ -167,7 +163,6 @@ footer .social-icons img {
   border-radius: 10px;
 }
 
-/* Responsividad */
 @media (max-width: 768px) {
   .container-map {
     flex-direction: column;
@@ -232,7 +227,6 @@ h2 {
   top: 0;
 }
 
-/* Ocultar el divisor en pantallas pequeñas */
 @media (max-width: 768px) {
   .divider-vertical {
     display: none;
@@ -262,7 +256,6 @@ h2 {
   border-radius: 10px;
 }
 
-/* Responsividad */
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
@@ -275,7 +268,6 @@ h2 {
     text-align: center;
   }
 }
-/* Estilos para los contenedores con sombra */
 .custom-container {
   position: relative; /* Necesario para posicionar el logo de WhatsApp */
   background-color: #ffffff;
@@ -285,7 +277,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* Estilo para el logo de WhatsApp */
 .whatsapp-logo {
   position: absolute;
   top: 10px;
@@ -329,7 +320,6 @@ body {
   margin-bottom: 20px;
 }
 
-/* Estilo para el logo de WhatsApp */
 .whatsapp-logo {
   position: absolute;
   top: 10px;
