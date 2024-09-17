@@ -1,17 +1,15 @@
-/* Botón con sombra personalizado */
+
 .btn-shadow {
     @include shadow($shadow-color, $shadow-color-hover);
   }
   
-  /* Estilos para los botones de los sidebars */
-  .sidebar-buttons .btn {
+   .sidebar-buttons .btn {
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px 20px;
   }
   
-  /* Botones adicionales (reutilizando variables) */
   .btn-primary {
     background-color: $primary-color-dark;
     border-color: $primary-color-dark;
